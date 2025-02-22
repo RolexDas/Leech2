@@ -1,16 +1,16 @@
 # REQUIRED CONFIG
-BOT_TOKEN = ""
-OWNER_ID = 0
-TELEGRAM_API = 0
-TELEGRAM_HASH = ""
-DATABASE_URL = ""
+BOT_TOKEN = "7319401145:AAFgxIKthqcO_9UBtxAogpPWMDLrGvl_6Rc"
+OWNER_ID = "6107997458"
+TELEGRAM_API = "28991562"
+TELEGRAM_HASH = "215d93eeacd3d1c704887f80b0b914f4"
+DATABASE_URL = "mongodb+srv://rolexfilterbot:04612010@cluster100.lfunohx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster100"
 
 # OPTIONAL CONFIG
 TG_PROXY = {}            # {"scheme": ”socks5”, "hostname": ””, "port": 1234, "username": ”user”, "password": ”pass”}
 USER_SESSION_STRING = ""
 CMD_SUFFIX = ""
-AUTHORIZED_CHATS = ""
-SUDO_USERS = ""
+AUTHORIZED_CHATS = "-1002422159349"
+SUDO_USERS = "6107997458"
 STATUS_LIMIT = 10
 DEFAULT_UPLOAD = "rc"
 STATUS_UPDATE_INTERVAL = 15
@@ -28,7 +28,7 @@ UPLOAD_PATHS = {}
 HELPER_TOKENS = ""
 
 # Task Tools
-FORCE_SUB_IDS = ""
+FORCE_SUB_IDS = "-1002432498240"
 MEDIA_STORE = True
 DELETE_LINKS = False
 BOT_MAX_TASKS = 0
@@ -43,7 +43,7 @@ TIMEZONE = "Asia/Kolkata"
 
 # GDrive Tools
 GDRIVE_ID = ""
-GD_DESP = "Uploaded with WZ Bot"
+GD_DESP = "Telegram ~ @TamillRockerznet"
 IS_TEAM_DRIVE = False
 STOP_DUPLICATE = False
 INDEX_URL = ""
@@ -83,23 +83,23 @@ USENET_SERVERS = [
 ]
 
 # Update
-UPSTREAM_REPO = ""
-UPSTREAM_BRANCH = "master"
-UPDATE_PKGS = False
+UPSTREAM_REPO = "https://github.com/RolexDas/Leech2"
+UPSTREAM_BRANCH = "wzv3"
+UPDATE_PKGS = True
 
 # Leech
 LEECH_SPLIT_SIZE = 0
-AS_DOCUMENT = False
+AS_DOCUMENT = True
 EQUAL_SPLITS = False
 MEDIA_GROUP = False
 USER_TRANSMISSION = True
 HYBRID_LEECH = True
-LEECH_PREFIX = ""
+LEECH_PREFIX = "@TamillRockerznet"
 LEECH_SUFFIX = ""
-LEECH_FONT = ""
+LEECH_FONT = "bold"
 LEECH_CAPTION = ""
 LEECH_DUMP_CHAT = ""
-THUMBNAIL_LAYOUT = ""
+THUMBNAIL_LAYOUT = "4x4"
 
 # qBittorrent/Aria2c
 TORRENT_TIMEOUT = 0
